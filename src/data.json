@@ -1,0 +1,25 @@
+{
+  "personalInfo": {
+    "firstName": "",
+    "lastName": "",
+    "title": "",
+    "city": "",
+    "phone": "",
+    "email": "",
+    "social": [{ "icon": "", "text": "", "url": "" }]
+  },
+  "summary": "",
+  "education": [
+    { "dateStart": "", "dateEnd": "", "degree": "", "institution": "" }
+  ],
+  "experience": [
+    {
+      "title": "",
+      "dateStart": "",
+      "dateEnd": "",
+      "company": "",
+      "responsabilities": ["", "", ""]
+    }
+  ],
+  "skills": [{ "name": "", "value": 0 }]
+}
