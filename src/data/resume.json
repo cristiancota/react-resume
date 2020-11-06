@@ -1,0 +1,94 @@
+{
+  "personalInfo": {
+    "firstName": "Cristian",
+    "lastName": "Cota",
+    "title": "Software Engineer",
+    "city": "Hermosillo, Mexico",
+    "email": "crcotag@gmail.com",
+    "photo": "https://avatars0.githubusercontent.com/u/8913918?s=400&u=4934e0591289387da4f9895ca2e41bb6eb9b6742&v=4",
+    "social": [
+      {
+        "icon": "",
+        "textDisplay": "",
+        "url": "https://linkedin.com/in/cristian-cota"
+      },
+      {
+        "icon": "",
+        "textDisplay": "",
+        "url": "https://github.com/cristiancota"
+      }
+    ]
+  },
+  "summary": "Experienced and result-oriented Software Engineer with more than 5 years of experience in the field looking for opportunities with new challenges. I successfully collaborate with my team to get things done to achieve and overcome the client's objectives and goals.",
+  "education": [
+    {
+      "dateStart": "2011-08",
+      "dateEnd": "2015-12",
+      "degree": "Information Systems Engineering",
+      "institution": "Universidad de Sonora"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Engineer",
+      "dateStart": "2017-03",
+      "dateEnd": "",
+      "company": "Switchfly",
+      "responsabilities": [
+        "Migrate the shopping flow of the application with the usage of new technologies based on web components and flux architecture.",
+        "Work on the loyalty service of the application, the most valuable feature for the business, creating promotions for flights, rooms, cars, and activities.",
+        "Participate in the creation and maintain room connectors that generate more than $2M in annual recurring revenue for Switchfly.",
+        "Write automated tests of the created features or updates. Annual PCI Secure Development Training."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "dateStart": "2016-08",
+      "dateEnd": "2017-01",
+      "company": "5AM",
+      "responsabilities": [
+        "Worked on an application based on micro-services architecture, mainly focus on front-end tasks using Angular JS.",
+        "Implementation of a performance testing module written on Node.js."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "dateStart": "2016-02",
+      "dateEnd": "",
+      "company": "Nearsoft",
+      "responsabilities": [
+        "Participate as mentor of several new joined engineers and interns.",
+        "Maintainer of an internal application to manage workshops and budget for internal training.",
+        "Collaborate on the development of a tool for conducting retrospective meetings, which is the most profitable product in SoftwareDevTools, corresponding to more than 65% of the sales.",
+        "Actively participate in events hosted by Nearsoft, which are aimed to encourage the software development culture in the community.",
+        "Currently interviewing new intern candidates for the Academy program."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "dateStart": "2014-12",
+      "dateEnd": "2016-12",
+      "company": "Several local companies",
+      "responsabilities": [
+        "Create Wordpress themes for several clients for their websites.",
+        "Create responsive websites based on custom web designs."
+      ]
+    }
+  ],
+  "languages": [
+    { "name": "English", "level": "Full Professional Proficiency" },
+    { "name": "Spanish", "level": "Native" }
+  ],
+  "skills": [
+    { "name": "Java", "value": 0 },
+    { "name": "Javascript", "value": 0 },
+    { "name": "Flux", "value": 0 },
+    { "name": "Redux", "value": 0 },
+    { "name": "Spring", "value": 0 },
+    { "name": "NodeJs", "value": 0 },
+    { "name": "Git", "value": 0 },
+    { "name": "React", "value": 0 },
+    { "name": "Selenium", "value": 0 },
+    { "name": "Ember", "value": 0 }
+  ]
+}
