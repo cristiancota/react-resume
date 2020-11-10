@@ -1,10 +1,10 @@
 import React, { useContext } from 'react';
 import { ResumeContext } from '../context/ResumeContext';
 
-function Summary() {
+function Header() {
   const { resume } = useContext(ResumeContext);
 
-  return <div className="Summary">{}</div>;
+  return <div className="Header">{}</div>;
 }
 
-export default Summary;
+export default Header;

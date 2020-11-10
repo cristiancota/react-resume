@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+p {
+  font-family: 'Catamaran', sans-serif;
+}
+
+div[class*='col-'] {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.App {
+  margin-top: 30px;
+  box-shadow: 3px 3px 12px #ddd;
+}
+
+.Sidebar {
+  background-color: #43615e;
+  color: #f0f0f0;
+}
+
+.Sidebar .name {
+  text-transform: uppercase;
+}
+
+.Sidebar .photo {
+  margin: 20px 0;
+}
+
+.Sidebar .photo img {
+  display: block;
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.heading {
+  text-transform: uppercase;
+  border-bottom: 1px solid;
+}
+
+.Content {
+  color: #444;
+}
