@@ -25,8 +25,18 @@ function Sidebar() {
             className="img-fluid rounded-circle border"
           />
         </div>
-        <h5 className="heading">summary</h5>
-        <p className="text-justify">{resume.summary}</p>
+        <div className="summary">
+          <h5 className="heading">summary</h5>
+          <p className="text-justify">{resume.summary}</p>
+        </div>
+        <div className="skills">
+          <h5 className="heading">skills</h5>
+          <p>
+            {resume.skills.map((skill) => {
+              return <span class="badge badge-light mr-2">{skill.name}</span>;
+            })}
+          </p>
+        </div>
       </div>
     </div>
   );

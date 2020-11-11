@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { ResumeContext } from '../context/ResumeContext';
+import DateRange from './components/DateRange';
 
 function Content() {
   const { resume } = useContext(ResumeContext);
@@ -7,10 +8,18 @@ function Content() {
   const experienceContent = resume.experience.map((exp) => {
     return (
       <div className="mt-3">
-        <h5>{exp.company}</h5>
-        <p>{exp.title}</p>
+        <h5>
+          {exp.company}{' '}
+          <small className="ml-2">
+            <DateRange
+              start={exp.dateStart}
+              end={exp.dateEnd}
+              format="MMM YYYY"
+            />
+          </small>
+        </h5>
         <p>
-          {exp.dateStart} - {exp.dateEnd ? exp.dateEnd : 'Present'}
+          <i>{exp.title}</i>
         </p>
         <ul class="list-unstyled">
           {exp.responsabilities.map((responsability) => (
@@ -20,14 +29,21 @@ function Content() {
       </div>
     );
   });
+
   const educationContent = resume.education.map((educationItem) => {
     return (
       <div className="mt-3">
-        <h5>{educationItem.institution}</h5>
+        <h5>
+          {educationItem.institution}{' '}
+          <small className="ml-2">
+          <DateRange
+              start={educationItem.dateStart}
+              end={educationItem.dateEnd}
+              format="MMM YYYY"
+            />
+          </small>
+        </h5>
         <p>{educationItem.degree}</p>
-        <p>
-          {educationItem.dateStart} - {educationItem.dateEnd ? educationItem.dateEnd : 'Present'}
-        </p>
       </div>
     );
   });
