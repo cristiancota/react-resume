@@ -10,13 +10,8 @@ h6 {
   font-family: 'Playfair Display', serif;
 }
 
-p {
+p, li {
   font-family: 'Catamaran', sans-serif;
-}
-
-div[class*='col-'] {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
 }
 
 .App {
@@ -27,6 +22,7 @@ div[class*='col-'] {
 .Sidebar {
   background-color: #43615e;
   color: #f0f0f0;
+  padding: 3rem 0;
 }
 
 .Sidebar .name {
@@ -39,7 +35,7 @@ div[class*='col-'] {
 
 .Sidebar .photo img {
   display: block;
-  max-width: 75%;
+  max-width: 50%;
   margin: 0 auto;
 }
 
@@ -50,4 +46,5 @@ div[class*='col-'] {
 
 .Content {
   color: #444;
+  padding: 3rem;
 }

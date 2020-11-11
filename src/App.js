@@ -8,7 +8,7 @@ import resume from './data/resume.json';
 
 function App() {
   return (
-    <div className="App container">
+    <div className="App container mb-5">
       <ResumeContext.Provider value={{ resume }}>
         <div className="row">
           <Header />
