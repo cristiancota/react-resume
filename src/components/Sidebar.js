@@ -37,6 +37,12 @@ function Sidebar() {
             })}
           </p>
         </div>
+        <div className="social">
+          <h5 className="heading"></h5>
+          {resume.personalInfo.social.map((socialItem) => {
+            return <p>{socialItem.displayText}</p>;
+          })}
+        </div>
       </div>
     </div>
   );
