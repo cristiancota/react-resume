@@ -8,12 +8,12 @@
     "photo": "https://avatars0.githubusercontent.com/u/8913918?s=400&u=4934e0591289387da4f9895ca2e41bb6eb9b6742&v=4",
     "social": [
       {
-        "icon": "faLinkedin",
+        "icon": "linkedin",
         "displayText": "Linkedin",
         "url": "https://linkedin.com/in/cristian-cota"
       },
       {
-        "icon": "faGithub",
+        "icon": "github",
         "displayText": "Github",
         "url": "https://github.com/cristiancota"
       }

@@ -7,7 +7,7 @@ function Content() {
 
   const experienceContent = resume.experience.map((exp) => {
     return (
-      <div className="mt-3">
+      <div className="mt-3" key={exp.company}>
         <h5>
           {exp.company}{' '}
           <small className="ml-2">
@@ -21,9 +21,9 @@ function Content() {
         <p>
           <i>{exp.title}</i>
         </p>
-        <ul class="list-unstyled">
+        <ul className="list-unstyled">
           {exp.responsabilities.map((responsability) => (
-            <li>{responsability}</li>
+            <li key={responsability}>{responsability}</li>
           ))}
         </ul>
       </div>
@@ -32,7 +32,7 @@ function Content() {
 
   const educationContent = resume.education.map((educationItem) => {
     return (
-      <div className="mt-3">
+      <div className="mt-3" key={educationItem.institution}>
         <h5>
           {educationItem.institution}{' '}
           <small className="ml-2">

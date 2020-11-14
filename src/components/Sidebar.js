@@ -1,8 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { library } from '@fortawesome/fontawesome-svg-core';
 import React, { useContext } from 'react';
 import { ResumeContext } from '../context/ResumeContext';
 
 function Sidebar() {
+  library.add(fab);
+
   const { resume } = useContext(ResumeContext);
 
   return (
@@ -33,15 +37,48 @@ function Sidebar() {
           <h5 className="heading">skills</h5>
           <p>
             {resume.skills.map((skill) => {
-              return <span class="badge badge-light mr-2">{skill.name}</span>;
+              return (
+                <span key={skill.name} className="badge badge-light mr-2">
+                  {skill.name}
+                </span>
+              );
             })}
           </p>
         </div>
         <div className="social">
-          <h5 className="heading"></h5>
-          {resume.personalInfo.social.map((socialItem) => {
-            return <p>{socialItem.displayText}</p>;
-          })}
+          <h5 className="heading">social</h5>
+          <ul className="list-unstyled">
+            {resume.personalInfo.social.map((socialItem) => {
+              return (
+                <li key={socialItem.displayText}>
+                  <a
+                    href={socialItem.url}
+                    target="_blank"
+                    className="text-white"
+                    rel="noopener noreferrer"
+                  >
+                    <FontAwesomeIcon icon={['fab', socialItem.icon]} />{' '}
+                    {socialItem.displayText}
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+        <div className="languages">
+          <h5 className="heading">languages</h5>
+          <ul className="list-unstyled">
+            {resume.languages.map((language) => {
+              return (
+                <li key={language.name}>
+                  <h6>{language.name}</h6>
+                  <span>
+                    <i>{language.level}</i>
+                  </span>
+                </li>
+              );
+            })}
+          </ul>
         </div>
       </div>
     </div>
