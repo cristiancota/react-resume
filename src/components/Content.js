@@ -21,7 +21,7 @@ function Content() {
         <p>
           <i>{exp.title}</i>
         </p>
-        <ul className="list-unstyled">
+        <ul className="list pl-0">
           {exp.responsabilities.map((responsability) => (
             <li key={responsability}>{responsability}</li>
           ))}
