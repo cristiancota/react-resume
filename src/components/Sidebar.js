@@ -36,9 +36,9 @@ function Sidebar() {
         <div className="skills">
           <h5 className="heading">skills</h5>
           <p>
-            {resume.skills.map((skill) => {
+            {resume.skills.map((skill, i) => {
               return (
-                <span key={skill.name} className="badge badge-light mr-2">
+                <span key={i} className="badge badge-light mr-2">
                   {skill.name}
                 </span>
               );
@@ -48,9 +48,9 @@ function Sidebar() {
         <div className="social">
           <h5 className="heading">social</h5>
           <ul className="list-unstyled">
-            {resume.personalInfo.social.map((socialItem) => {
+            {resume.personalInfo.social.map((socialItem, i) => {
               return (
-                <li key={socialItem.displayText}>
+                <li key={i}>
                   <a
                     href={socialItem.url}
                     target="_blank"
@@ -68,9 +68,9 @@ function Sidebar() {
         <div className="languages">
           <h5 className="heading">languages</h5>
           <ul className="list-unstyled">
-            {resume.languages.map((language) => {
+            {resume.languages.map((language, i) => {
               return (
-                <li key={language.name}>
+                <li key={i}>
                   <h6>{language.name}</h6>
                   <span>
                     <i>{language.level}</i>

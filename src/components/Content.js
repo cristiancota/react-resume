@@ -5,9 +5,9 @@ import DateRange from './components/DateRange';
 function Content() {
   const { resume } = useContext(ResumeContext);
 
-  const experienceContent = resume.experience.map((exp) => {
+  const experienceContent = resume.experience.map((exp, i) => {
     return (
-      <div className="mt-3" key={exp.company}>
+      <div className="mt-3" key={i}>
         <h5>
           {exp.company}{' '}
           <small className="ml-2">
@@ -22,17 +22,17 @@ function Content() {
           <i>{exp.title}</i>
         </p>
         <ul className="list pl-0">
-          {exp.responsabilities.map((responsability) => (
-            <li key={responsability}>{responsability}</li>
+          {exp.responsabilities.map((responsability, i) => (
+            <li key={i}>{responsability}</li>
           ))}
         </ul>
       </div>
     );
   });
 
-  const educationContent = resume.education.map((educationItem) => {
+  const educationContent = resume.education.map((educationItem, i) => {
     return (
-      <div className="mt-3" key={educationItem.institution}>
+      <div className="mt-3" key={i}>
         <h5>
           {educationItem.institution}{' '}
           <small className="ml-2">
