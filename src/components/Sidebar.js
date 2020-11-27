@@ -13,14 +13,10 @@ function Sidebar() {
     <div className="Sidebar col-md-4">
       <div className="pr-3 pl-3">
         <div className="name text-center">
-          <h2>
-            {resume.personalInfo.firstName}
-            <br />
-            {resume.personalInfo.lastName}
-          </h2>
-          <p className="title">
-            <i>{resume.personalInfo.title}</i>
-          </p>
+          <h3>
+            {resume.personalInfo.firstName} {resume.personalInfo.lastName}
+          </h3>
+          <p className="title">{resume.personalInfo.title}</p>
         </div>
         <div className="photo">
           <img
@@ -70,8 +66,8 @@ function Sidebar() {
           <ul className="list-unstyled">
             {resume.languages.map((language, i) => {
               return (
-                <li key={i}>
-                  <h6>{language.name}</h6>
+                <li key={i} className="mb-1">
+                  <h6 className="mb-0">{language.name}</h6>
                   <span>
                     <i>{language.level}</i>
                   </span>
