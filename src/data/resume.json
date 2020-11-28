@@ -16,6 +16,11 @@
         "icon": "github",
         "displayText": "Github",
         "url": "https://github.com/cristiancota"
+      } ,
+      {
+        "icon": "twitter",
+        "displayText": "Twitter",
+        "url": "https://twitter.com/cristiancotag"
       }
     ]
   },
