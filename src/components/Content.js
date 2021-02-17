@@ -18,7 +18,7 @@ function Content() {
             />
           </small>
         </h5>
-        <p>
+        <p className="mb-1">
           <i>{exp.title}</i>
         </p>
         <ul className="list pl-0">
@@ -36,7 +36,7 @@ function Content() {
         <h5>
           {educationItem.institution}{' '}
           <small className="ml-2">
-          <DateRange
+            <DateRange
               start={educationItem.dateStart}
               end={educationItem.dateEnd}
               format="MMM YYYY"
