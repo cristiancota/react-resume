@@ -102,6 +102,7 @@
     { "name": "Git", "value": 0 },
     { "name": "React", "value": 0 },
     { "name": "Selenium", "value": 0 },
-    { "name": "Ember", "value": 0 }
+    { "name": "Ember", "value": 0 } ,
+    { "name": "GraphQL", "value": 0 }
   ]
 }
