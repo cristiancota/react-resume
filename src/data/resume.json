@@ -16,15 +16,10 @@
         "icon": "github",
         "displayText": "Github",
         "url": "https://github.com/cristiancota"
-      },
-      {
-        "icon": "twitter",
-        "displayText": "Twitter",
-        "url": "https://twitter.com/cristiancotag"
       }
     ]
   },
-  "summary": "Experienced and result-oriented Software Engineer with +6 years of experience. I successfully collaborate with my team to get things done to achieve and overcome the established objectives and goals.",
+  "summary": "Experienced and result-oriented Software Engineer with more than 6 years of experience, currently looking for new opportunities as a front-end engineer. I successfully collaborate with any team to get things done to achieve and overcome the goals and objectives.",
   "education": [
     {
       "dateStart": "2011-08",
@@ -39,18 +34,21 @@
       "dateStart": "2021-01",
       "dateEnd": "",
       "company": "TripAdvisor",
-      "responsabilities": []
+      "responsabilities": [
+        "Participate in the improvement of the attractions pages based on Server-driven UI pattern, with the help of React, GraphQL and microservices architecture in the back-end",
+        "Create and update the storybooks, based on the discussions with the Design System team.",
+        "Set up A/B test experiments to confirm or reject new features."
+      ]
     },
     {
       "title": "Software Engineer",
       "dateStart": "2017-03",
-      "dateEnd": "2020-12",
+      "dateEnd": "2020-11",
       "company": "Switchfly",
       "responsabilities": [
         "Migrate the shopping flow of the application with the usage of new technologies based on web components and flux architecture.",
         "Work on the loyalty service of the application, the most valuable feature for the business, creating promotions for flights, rooms, cars, and activities.",
         "Participate in the creation and maintain room connectors that generate more than $2M in annual recurring revenue for Switchfly.",
-        "Write automated tests of the created features or updates.",
         "Annual PCI Secure Development Training."
       ]
     },
@@ -68,13 +66,13 @@
       "title": "Software Engineer",
       "dateStart": "2016-02",
       "dateEnd": "",
-      "company": "Nearsoft",
+      "company": "Encora",
       "responsabilities": [
         "Participate as mentor of several new joined engineers and interns.",
-        "Maintainer of an internal application to manage workshops and budget for internal training.",
+        "Maintainer of internal application to manage workshops and budget for internal training.",
         "Collaborate on the development of a tool for conducting retrospective meetings, which is the most profitable product in SoftwareDevTools, corresponding to more than 65% of the sales.",
-        "Actively participate in events hosted by Nearsoft, which are aimed to encourage the software development culture in the community.",
-        "Currently interviewing new intern candidates for the Academy program."
+        "Actively participate in events hosted by Encora, which are aimed to encourage the software development culture in the community.",
+        "Interviewing new intern candidates for the Academy program."
       ]
     },
     {
@@ -83,8 +81,7 @@
       "dateEnd": "2016-12",
       "company": "Several local companies",
       "responsabilities": [
-        "Create Wordpress themes for several clients for their websites.",
-        "Create responsive websites based on custom web designs."
+        "Develop custom Wordpress themes and static websites for different clients."
       ]
     }
   ],
